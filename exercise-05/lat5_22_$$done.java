@@ -18,7 +18,7 @@
 
 import java.util.Scanner;
 
-public class lat5_22_$$ {
+public class lat5_22_$$done {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
