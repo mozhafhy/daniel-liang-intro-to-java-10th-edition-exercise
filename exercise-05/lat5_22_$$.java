@@ -32,21 +32,20 @@ public class lat5_22_$$ {
 		double annualInterestRate = in.nextDouble();
 		double monthlyInterestRate = annualInterestRate / 1200.0;
 
-		double monthlyPayment = (loanAmount * monthlyInterestRate) / 1
-				- Math.pow(1 + monthlyInterestRate, -numberOfYears * 12);
+		double monthlyPayment = (loanAmount * monthlyInterestRate) / (1 - Math.pow(1 + monthlyInterestRate, -numberOfYears * 12));
 		double totalPayment = monthlyPayment * numberOfYears * 12;
 		System.out.printf("\nMonthly Payment: %.2f\n", monthlyPayment);
 		System.out.printf("Total Payment: %.2f\n\n", totalPayment);
 
 		double balance = loanAmount;
-		double interest = monthlyInterestRate * balance;
+		double interest;
 		double principal;
 
-		System.out.println("Payment#\t\tInterest\t\tPrincipal\t\tBalance");
+		System.out.println("Payment#\tInterest\tPrincipal\tBalance");
 		for (int i = 1; i <= numberOfYears * 12; i++) {
-			interest = monthlyInterestRate * balance;
-			principal = monthlyPayment - interest;
-			balance = balance - principal;
+			interest = (int) (monthlyInterestRate * balance * 100) / 100.0;
+      principal = (int) ((monthlyPayment - interest) * 100) / 100.0;
+      balance = (int) ((balance - principal) * 100) / 100.0;
 			System.out.println(i + "\t\t" + interest + "\t\t" + principal + "\t\t" + balance);
 		}
 
