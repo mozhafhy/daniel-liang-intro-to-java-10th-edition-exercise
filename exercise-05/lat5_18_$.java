@@ -12,7 +12,7 @@
 
 import java.util.Scanner;
 
-public class lat5_18_$done {
+public class lat5_18_$ {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();

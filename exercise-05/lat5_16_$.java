@@ -8,7 +8,7 @@
 
 import java.util.Scanner;
 
-public class lat5_16_$done {
+public class lat5_16_$ {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		System.out.print("Enter a positive integer: ");

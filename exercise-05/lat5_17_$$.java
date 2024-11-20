@@ -12,7 +12,7 @@
 
 import java.util.Scanner;
 
-public class lat5_17_$$done {
+public class lat5_17_$$ {
 	/*
 	 * Piramida itu terdiri dari dua bagian, yaitu:
 	 * 			Bagian 1							Bagian 2

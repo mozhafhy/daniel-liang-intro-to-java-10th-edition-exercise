@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-public class lat5_9_$done {
+public class lat5_9_$ {
 	//! Eksperimen dengan ANSI escape code
 	static final String RESET = (char) 27 + "[0m";
 	static final String YELLOW = (char) 27 + "[33m";

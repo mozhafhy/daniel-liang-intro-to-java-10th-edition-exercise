@@ -6,7 +6,7 @@
 */
 import java.util.Scanner;
 
-public class lat5_1_$done {
+public class lat5_1_$ {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		

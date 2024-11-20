@@ -2,7 +2,7 @@
  * Tampilkan semua bilangan prima di antara 2 - 1000
  */
 
-public class lat5_20_$done {
+public class lat5_20_$ {
 	/*
 	 * Kita butuh prime checker
 	 */

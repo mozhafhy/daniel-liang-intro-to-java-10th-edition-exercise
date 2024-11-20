@@ -2,7 +2,7 @@
  * Cetak 100 karakter dimulai dari '!' sampai '~'. Cetak 10 karakter tiap barisnya
  */
 
-public class lat5_15_$done {
+public class lat5_15_$ {
 	public static void main(String[] args) {
 		for (char i = '!'; i <= '~'; i++) { //* char sebenarnya adalah kode hex
 			System.out.printf("%c ", i);

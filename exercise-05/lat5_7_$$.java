@@ -3,7 +3,7 @@
  * 5% tiap tahun, lalu hitung jumlah UKT 4 tahun setelah tahun ke-10
 */
 
-public class lat5_7_$$done {
+public class lat5_7_$$ {
 	public static void main(String[] args) {
 		double tuition = 10000; //* Nilai awal UKT
 		final double ANNUAL_INCREASE_RATE = 0.05; //* Persen peningkatan UKT tiap tahun
