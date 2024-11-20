@@ -11,7 +11,7 @@
 
 import java.util.Scanner; // ! Import scanner karena butuh masukan dari user
 
-public class lat5_29_$$done {
+public class lat5_29_$$ {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
 
@@ -20,10 +20,6 @@ public class lat5_29_$$done {
 
     System.out.print("Enter the first day fo the year (0 - 6): ");
     int startDay = in.nextInt() % 7; // * Agar input yang dimasukkan tetap berada di [0, 6]
-    // if (startDay > 6) {
-    // System.out.println("Invalid first day of the month!");
-    // return;
-    // }
 
     // * Cetak kalender
     int numberOfDaysInMonth = 0;
