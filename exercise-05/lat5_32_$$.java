@@ -16,7 +16,37 @@ public class lat5_32_$$ {
 		Scanner in = new Scanner(System.in);
 		Random random = new Random();
 
-		int lottery = random.nextInt(1, 10);
-		
+		int lotteryFirstDigit = random.nextInt(1, 10);
+		int lotterySecondDigit = lotteryFirstDigit;
+
+		// * Loop untuk membuat digit kedua lottery berbeda dari digit pertamanya
+		while (lotteryFirstDigit == lotterySecondDigit) {
+			lotterySecondDigit = random.nextInt(1, 10);
+		}
+
+		String lotteryNum = "" + lotteryFirstDigit + lotterySecondDigit;
+
+		// * Seleksi input user
+		System.out.print("Enter your lottery pick (two digits): ");
+		int guessNum = in.nextInt();
+		int firstGuessDigit = guessNum / 10;
+		int secondGuessDigit = guessNum % 10;
+
+		System.out.println("The lottery number is " + lotteryNum);
+
+		if (guessNum == Integer.parseInt(lotteryNum)) {
+			System.out.println("Exact match: you win $10,000");
+		} else if (firstGuessDigit == lotterySecondDigit && secondGuessDigit == lotteryFirstDigit) {
+			System.out.println("Match all digits: you win $3,000");
+		} else if (firstGuessDigit == lotteryFirstDigit
+				|| firstGuessDigit == lotterySecondDigit
+				|| secondGuessDigit == lotteryFirstDigit
+				|| secondGuessDigit == lotterySecondDigit) {
+			System.out.println("Match one digit: you win $1,000");
+		} else {
+			System.out.println("Sorry, no match");
+		}
+
+		in.close();
 	}
 }
