@@ -7,7 +7,7 @@ method using recursion. Write a program that prompts the user to enter an intege
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class lat18_1 {
+public class lat18_1_$ {
 	public static void main(String[] args) {
 		// receive user input
 		Scanner in = new Scanner(System.in);
