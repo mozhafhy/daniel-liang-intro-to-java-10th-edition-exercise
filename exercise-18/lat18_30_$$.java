@@ -23,6 +23,7 @@ public class lat18_30_$$ {
 
 	public static long findWords(File file, String word) {
 		long numOfOccurrences = 0;
+		System.out.println(file.getPath());
 
 		if (file.isDirectory()) {
 			// get all files and subdirectories in current directory
@@ -37,7 +38,7 @@ public class lat18_30_$$ {
 				// get file content as a string
 				String content = readFile(file.getPath(), Charset.forName("ASCII"));
 
-				// search for all word occurences in file
+				// search for all word occurrences in file
 				for (int i = 0; i < content.length() - word.length() + 1; i++) {
 					// check if the substring from i with the same length to word have the same
 					// content as word

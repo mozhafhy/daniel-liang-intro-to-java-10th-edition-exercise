@@ -6,8 +6,8 @@ to return the number of uppercase letters in an array of characters.
 import java.util.Scanner;
 
 public class lat18_16_$ {
-	static char lowestUppercase = 'A'; // 'A' is the uppercase letter with lowest value in ASCII
-	static char highestUppercase = 'Z'; // 'Z' is the uppercase letter with lowest value in ASCII
+	static char lowestUppercase = 'A'; // 'A' is the uppercase letter with lowest value in UTF-16
+	static char highestUppercase = 'Z'; // 'Z' is the uppercase letter with lowest value in UTF-16
 
 	public static void main(String[] args) {
 		// read string from user input and convert it to characters array
