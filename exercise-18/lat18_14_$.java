@@ -8,8 +8,8 @@ the string.
 import java.util.Scanner;
 
 public class lat18_14_$ {
-	static char lowestUppercase = 'A'; // 'A' is the uppercase letter with lowest value in ASCII
-	static char highestUppercase = 'Z'; // 'Z' is the uppercase letter with lowest value in ASCII
+	static char lowestUppercase = 'A'; // 'A' is the uppercase letter with lowest value in UTF-16
+	static char highestUppercase = 'Z'; // 'Z' is the uppercase letter with lowest value in UTF-16
 
 	public static void main(String[] args) {
 		// read value from user input

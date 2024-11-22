@@ -23,13 +23,13 @@ public class lat18_10_$ {
 			return 0;
 
 		// recall method with string removed 1 char
-		int numOfOccurences = count(str.substring(0, str.length() - 1), a);
+		int numOfOccurrences = count(str.substring(0, str.length() - 1), a);
 
 		// increase counter if the last char of str is a
 		if (str.charAt(str.length() - 1) == a) {
-			numOfOccurences++;
+			numOfOccurrences++;
 		}
 
-		return numOfOccurences;
+		return numOfOccurrences;
 	}
 }

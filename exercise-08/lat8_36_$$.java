@@ -10,7 +10,7 @@ The characters are the first n characters starting from A.
 import java.util.Scanner;
 
 public class lat8_36_$$ {
-	static char lowestLetter = 'A'; // lowest letter in ASCII table for letter range validation
+	static char lowestLetter = 'A'; // lowest letter in UTF-16 table for letter range validation
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);

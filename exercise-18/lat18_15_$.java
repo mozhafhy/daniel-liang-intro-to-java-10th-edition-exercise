@@ -22,7 +22,7 @@ public class lat18_15_$ {
 	 * @param str  string to be checked
 	 * @param a    target character
 	 * @param high the highest index in the string that's unchecked yet
-	 * @return number of occurences
+	 * @return number of occurrences
 	 * 
 	 */
 	public static int count(String str, char a, int high) {
@@ -31,13 +31,13 @@ public class lat18_15_$ {
 			return 0;
 
 		// recall method with string removed 1 char
-		int numOfOccurences = count(str, a, high - 1);
+		int numOfOccurrences = count(str, a, high - 1);
 
 		// increase counter if the last char of str is a
 		if (str.charAt(high) == a) {
-			numOfOccurences++;
+			numOfOccurrences++;
 		}
 
-		return numOfOccurences;
+		return numOfOccurrences;
 	}
 }

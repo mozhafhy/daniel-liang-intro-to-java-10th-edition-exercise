@@ -23,7 +23,7 @@ public class lat18_17_$ {
 	 * 
 	 * @param chars array of characters to be checked
 	 * @param a     target character
-	 * @return number of occurences
+	 * @return number of occurrences
 	 * 
 	 */
 	public static int count(char[] chars, char ch) {
@@ -36,7 +36,7 @@ public class lat18_17_$ {
 	 * @param chars array of characters to be checked
 	 * @param a     target character
 	 * @param high  the highest index of unchecked array element
-	 * @return number of occurences
+	 * @return number of occurrences
 	 * 
 	 */
 	public static int count(char[] chars, char a, int high) {
@@ -45,13 +45,13 @@ public class lat18_17_$ {
 			return 0;
 
 		// recall method with string removed 1 char
-		int numOfOccurences = count(chars, a, high - 1);
+		int numOfOccurrences = count(chars, a, high - 1);
 
 		// increase counter if the last char of str is a
 		if (chars[high] == a) {
-			numOfOccurences++;
+			numOfOccurrences++;
 		}
 
-		return numOfOccurences;
+		return numOfOccurrences;
 	}
 }
