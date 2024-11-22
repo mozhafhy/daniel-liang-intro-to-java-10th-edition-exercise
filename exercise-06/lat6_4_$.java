@@ -7,7 +7,7 @@ For example, reverse(3456) displays 6543. Write a test program that prompts the 
 */
 import java.util.Scanner;
 
-public class lat6_4 {
+public class lat6_4_$ {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int num = in.nextInt();

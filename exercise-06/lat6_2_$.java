@@ -3,7 +3,7 @@
 */
 import java.util.Scanner;
 
-public class lat6_2 {
+public class lat6_2_$ {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		

@@ -7,7 +7,7 @@ Write a test program that prompts the user to enter three numbers and invokes th
 */
 import java.util.Scanner;
 
-public class lat6_5 {
+public class lat6_5_$ {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int num1 = in.nextInt();

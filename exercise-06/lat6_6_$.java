@@ -10,7 +10,7 @@ public static void displayPattern(int n)
 */
 import java.util.Scanner;
 
-public class lat6_6 {
+public class lat6_6_$ {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();

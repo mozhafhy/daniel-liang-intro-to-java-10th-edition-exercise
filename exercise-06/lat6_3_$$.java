@@ -11,7 +11,7 @@ Use the reverse method to implement isPalindrome. A number is a palindrome if it
 */
 import java.util.Scanner;
 
-public class lat6_3 {
+public class lat6_3_$$ {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int num = in.nextInt();

@@ -19,7 +19,7 @@ Years 		Future Value
 */
 import java.util.Scanner;
 
-public class lat6_7 {
+public class lat6_7_$ {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		final int years = 30;
