@@ -11,18 +11,11 @@ import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Scanner;
 
 public class lat18_30_$$ {
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
-		// Prompt the user to enter a directory or a file
-		System.out.print("Enter a directory or a file: ");
-		String directory = in.nextLine();
-		// Prompt the user to enter a word
-		System.out.print("Enter a word: ");
-		String word = in.next();
-		in.close();
+		String directory = args[0];
+		String word = args[1];
 
 		// Display the number of files
 		System.out.println(findWords(new File(directory), word) + " times");
