@@ -34,7 +34,7 @@ public class lat8_36_$$ {
 					isRowValid = false;
 			}
 
-			in.close();
+			// in.close();
 
 			if (!isRowValid) {
 				System.out.printf("Wrong input: the letters must be from %c to %c",
